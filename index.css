@@ -1,0 +1,597 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.topbar {
+    border-bottom: #a5a5a5 5px solid;
+    background-color: black;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.text {
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.topheading {
+    cursor: default;
+    transition: 0.2s ease-in-out;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    height: fit-content;
+    width: fit-content;
+
+}
+.topheading:hover{
+    background-image: linear-gradient(to right,#c4302b,#00acee,#3b5998,purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: #cecdcd 0.3px;
+}
+
+.toptabs {
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.text:hover {
+    transition: 0.2s ease-in-out;
+    color: #ac8574;
+    text-decoration: underline solid 5px #ac8574;
+}
+
+.highlighttext {
+    cursor: default;
+    font-size: 20px;
+    color: #ac8574;
+    text-decoration: underline solid 5px #ac8574;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.phonebox {
+    color: white;
+    margin-top: 14px;
+    margin-left: 1100px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.phoneicon {
+    display: inline;
+    float: left;
+    color: #ac8574;
+}
+.phonenumber{
+    display: inline;
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+}
+.phonenumber:hover {
+    transition: 0.2s ease-in-out;
+    color: #ac8574;
+    text-decoration: underline solid 2px #ac8574;
+}
+
+.coverimage {
+    margin-top: 80px;
+    height: 400px;
+    background-image: url(gallery/header-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.covertext {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #cecdcd;
+    -webkit-text-fill-color: transparent;
+    background-image: url(gallery/bg-gif.gif);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    cursor: default;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-left: 55px;
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.coverbutton {
+    padding-left: 30px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 18px;
+    color: #ac8574;
+    border: #ac8574 2px solid;
+    height: 50px;
+    width: 170px;
+    line-height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coverbutton:hover {
+    transition: 0.2s ease-in-out;
+    color: white;
+    border: white 2px solid;
+}
+.coverbuttonanchor:hover{
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+.coverbuttonanchor{
+    color: #ac8574;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.coverbutton2 {
+    text-decoration: underline 0.1px black;
+    padding-left: 30px;
+    line-height: 50px;
+    margin-top: 18px;
+    color: #ac8574;
+    border: #ac8574 2px solid;
+    height: 50px;
+    width: 170px;
+    margin-left: 355px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coverbutton2:hover {
+
+    transition: 0.2s ease-in-out;
+    color: white;
+    border: white 2px solid;
+}
+.coverbutton2anchor{
+    color: #ac8574;
+    text-decoration: underline 0px solid black;
+}
+.coverbutton2anchor:hover{
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+.ourstore {
+    height: 400px;
+    background-image: url(gallery/store-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.storetext {
+    cursor: default;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-left: 870px;
+    margin-top: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.storedesc {
+    cursor: default;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #a5a5a5;
+    margin-left: 870px;
+    height: fit-content;
+    width: 410px;
+}
+
+.collectionheading {
+    cursor: default;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-left: 60px;
+    margin-top: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.popularityselector {
+    color: #a5a5a5;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 970px;
+    height: 50px;
+    width: fit-content;
+
+}
+
+.latest {
+    cursor: default;
+    height: 30px;
+    border-bottom: #a5a5a5 2px solid;
+    float: left;
+}
+
+.popular {
+    height: 30px;
+    color: #a5a5a5;
+    margin-left: 100px;
+}
+
+.popular:hover {
+    transition: 0.2s ease-in-out;
+    border-bottom: #a5a5a5 2px solid;
+}
+
+.watchbox {
+    cursor: default;
+    background-image: linear-gradient(to bottom, #00000000, #ffffff18);
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: #a5a5a5 1px solid;
+    height: 600px;
+    width: 350px;
+}
+
+.watchimg {
+
+    margin-top: 10px;
+    margin-left: 55px;
+    height: 400px;
+    width: 257px;
+}
+
+.watch1 {
+    background-image: url(gallery/watch-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.watch2 {
+    background-image: url(gallery/watch-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.watch3 {
+    background-image: url(gallery/watch-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.namepricebox {
+    padding-top: 45px;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+.watchname {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.watchprice {
+    color: #ac8574;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.brandbar {
+    clear: both;
+    height: 100px;
+    margin-top: 700px;
+    background-color: #ffffff52;
+}
+
+.brandlogo {
+    float: left;
+}
+
+.logo1 {
+    margin-top: 30px;
+    margin-left: 203px;
+    height: 40px;
+    width: 80px;
+    background-image: url(gallery/omega.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.logo2 {
+    margin-top: 36px;
+    margin-left: 203px;
+    height: 33px;
+    width: 100px;
+
+    background-image: url(gallery/rado.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.logo3 {
+    margin-top: 40px;
+    margin-left: 203px;
+    height: 18px;
+    width: 100px;
+
+    background-image: url(gallery/swatch.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.logo4 {
+    margin-top: 30px;
+    margin-left: 203px;
+    height: 40px;
+    width: 100px;
+
+    background-image: url(gallery/zenith.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.customerreviewbox {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 800px;
+}
+
+.customerheading {
+    cursor: default;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.reviewbox {
+    cursor: default;
+    float: left;
+    margin-left: 30px;
+    height: 350px;
+    width: 350px;
+}
+
+.pfpbox {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.a {
+    background-image: url(gallery/sandra-willims.png);
+}
+
+.b {
+    background-image: url(gallery/smith.png);
+}
+
+.reviewername {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 140px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.review {
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: both;
+    color: #a5a5a5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer {
+    font-family: 'Ubuntu', sans-serif;
+    clear: both;
+    height: 270px;
+}
+
+.footcolumn {
+    cursor: default;
+    margin-left: 200px;
+    height: fit-content;
+    width: 200px;
+    float: left;
+    line-height: 25px;
+}
+
+.left {
+    margin-left: -13px;
+}
+
+.mid {
+    text-align: center;
+    margin-left: 350px;
+}
+
+.footerheading {
+
+    margin-left: 20px;
+    color: #ac8574;
+    text-shadow: 0px 0px 5px #a5a5a5;
+}
+
+.footertabs {
+
+    text-decoration: none;
+    margin-left: 20px;
+    color: #a5a5a5;
+    
+}
+
+.footertabsanchor{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #a5a5a5;
+}
+.footertabsanchor:hover{
+    color: #ac8574;
+    text-decoration: underline solid #ac8574 2px ;
+}
+.socialtabsanchor{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+.socialtabsanchor:hover{
+    background-image: linear-gradient(to right,#c4302b,#00acee,#3b5998,purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline 2px solid #a5a5a5;    
+}
+.socialicons {
+    font-size: 20px;
+    text-decoration: none;
+    color: #a5a5a5;
+    transition: 0.2s ease-in-out;
+}
+.socialheading{
+    margin-left: 27px;
+    width: fit-content;
+    font-size: 20px;
+    
+    
+}
+.socialheading:hover{
+    background-image: linear-gradient(to right,#c4302b,#00acee,#3b5998,purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.youtube:hover {
+    color: #c4302b;
+    text-decoration: none;
+}
+
+.twitter:hover {
+    color: #00acee;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.insta:hover {
+    background-image: url(gallery/Insta\ BG\ Gradient.png);
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.footcolumnemail {
+    height: fit-content;
+    width: 355px;
+    margin-left: 380px;
+    margin-top: -173px;
+}
+.emaillabel{
+    margin-left: -10px;
+}
+
+.email {
+    cursor: text;
+    float: left;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+.email:hover{
+    cursor: text;
+}
+
+.email:focus {
+    cursor: text;
+    outline: #ac8574;
+    outline-style: outset;
+    outline-width: 3px;
+    cursor: default;
+}
+
+.submitbutton {
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: #ac8574;
+    margin-left: 5px;
+    padding: 0px;
+    height: 50px;
+    width: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.submitbutton:hover {
+    cursor: pointer;
+}
+.endtext{
+    cursor: default;
+    padding-top: 23px;
+    font-size: 24px;
+    margin: auto;
+    color: #cecdcd;
+    width: fit-content;
+    height: fit-content;
+   text-align: center;
+    clear: both;
+    font-family: 'Ubuntu', sans-serif;
+}
+.effect{
+    color: #cecdcd;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    float: left;
+}
+.effect:hover{
+    
+    background-image: url(gallery/gradient\ bg\ 2.jpeg);
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1,1.1);
+    text-decoration: underline 2px #afafaf solid;
+}
